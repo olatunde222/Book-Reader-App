@@ -69,6 +69,7 @@ const searchInputStyle = {
   backgroundColor: "rgb(248,231,221)",
   border: "2px solid #000",
   minWidth: "320px",
+  
 };
 
 const rightContainerStyle = {

@@ -2,3 +2,14 @@
   width: 95%;
   margin: auto;
 }
+
+.containerStyle{
+  display: 'flex';
+  justifyContent: 'space-between';
+  alignItems:'flex-start';
+
+}
+
+.content{
+  width: 30%;
+}
