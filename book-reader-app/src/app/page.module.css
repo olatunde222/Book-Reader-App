@@ -1,15 +1,32 @@
 .main{
-  width: 95%;
-  margin: auto;
+  width:95%;
+  margin:auto;
 }
 
 .containerStyle{
-  display: 'flex';
-  justifyContent: 'space-between';
-  alignItems:'flex-start';
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.content{
+  width:30%;
+}
+
+.ulGroupStyle{
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+.grouper{
+  background-color:#f8eadd;
+  margin:0 30px;
+  padding:10px 1px;
+  border-radius:20px;
 
 }
 
-.content{
-  width: 30%;
+.title{
+  padding-left:40px;
 }
