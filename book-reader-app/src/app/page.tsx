@@ -16,6 +16,7 @@ export default function Home() {
             <Sidebar />
           </section>
           <div className={styles.grouper}>
+            {/* Books Header */}
             <h1 className={styles.title}>All Books</h1>
             {/* Books component */}
             <Books />

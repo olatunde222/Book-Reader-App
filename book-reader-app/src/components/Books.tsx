@@ -18,7 +18,7 @@ const Books = () => {
           <a href={`/book/${book.id}`} style={{textDecoration:'none'}}>
             {/* Book cards component */}
           <BookCard title={book.title} coverImage={book.image} description={book.description} />
-            <p>{book.title}</p>
+
           </a>
         </motion.li>
       ))}
